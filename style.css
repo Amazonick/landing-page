@@ -76,7 +76,7 @@ a:hover {
     width: auto;
 }
 
-img {
+#right-hero-image {
     width: 500px;
     height: auto;
     border-radius: 20px;
@@ -100,4 +100,10 @@ button {
     border-radius: 12px;
     height: 48px;
     width: 200px;
+}
+
+img {
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
 }
