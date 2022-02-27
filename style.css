@@ -206,3 +206,15 @@ h6 {
     border: solid;
     font-size: 18px;
 }
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.footer p {
+    color: #f9faf8;
+}
