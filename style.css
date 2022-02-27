@@ -119,6 +119,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 32px;
 }
 
 .square {
@@ -137,4 +138,71 @@ h3 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+}
+
+.quote-box {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 48px;
+}
+
+.quote {
+    width: 500px;
+}
+
+h4 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: right;
+    font-style: italic;
+}
+
+.call-to-action-box {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 15px;
+    width: 1000px;
+}
+
+.action {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+h6 {
+    color: #E5E7EB;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.action p {
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+}
+
+.call-to-action button {
+    border: solid;
+    font-size: 18px;
 }
